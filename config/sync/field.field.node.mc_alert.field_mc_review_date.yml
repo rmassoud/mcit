@@ -1,0 +1,23 @@
+uuid: b732536b-8066-4904-9d70-a94df45e23db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_review_date
+    - node.type.mc_alert
+  module:
+    - datetime
+_core:
+  default_config_hash: JtqcFwaLGYscUVop-ty---mTTJSHtFTa2l1Yq2r5tPY
+id: node.mc_alert.field_mc_review_date
+field_name: field_mc_review_date
+entity_type: node
+bundle: mc_alert
+label: 'Review date'
+description: 'The date the content needs to be reviewed by.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

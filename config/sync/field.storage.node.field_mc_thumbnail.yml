@@ -1,0 +1,22 @@
+uuid: 90c2db8c-d958-4ce1-b1be-586bb551c550
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+_core:
+  default_config_hash: NgpPV8nvr_HIJt8Jrv334t59ksYlY_7NJEUWvtgifSY
+id: node.field_mc_thumbnail
+field_name: field_mc_thumbnail
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

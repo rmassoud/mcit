@@ -1,0 +1,55 @@
+uuid: 7470da1d-9691-4810-a19f-ae70fc474a87
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.mc_resource_type
+  module:
+    - path
+    - text
+_core:
+  default_config_hash: q9cIWnHKVCGNSnuZq4qGPd8zIqqXGvq6hg2DzWt2bow
+id: taxonomy_term.mc_resource_type.default
+targetEntityType: taxonomy_term
+bundle: mc_resource_type
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 100
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden:
+  publish_on: true
+  publish_state: true
+  unpublish_on: true
+  unpublish_state: true

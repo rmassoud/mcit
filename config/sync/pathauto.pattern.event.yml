@@ -1,0 +1,24 @@
+uuid: 260bfd7e-0840-420f-a9ce-16d483f93766
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: m2KJE1Ju2BG6VcPd308NpXHmYk5YyP7TFZFi8Y46FPM
+id: event
+label: Event
+type: 'canonical_entities:node'
+pattern: '/events/[node:title]'
+selection_criteria:
+  c1d632cf-5502-4e08-a027-97659c6e3a86:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: c1d632cf-5502-4e08-a027-97659c6e3a86
+    context_mapping:
+      node: node
+    bundles:
+      mc_event: mc_event
+selection_logic: and
+weight: -8
+relationships: {  }

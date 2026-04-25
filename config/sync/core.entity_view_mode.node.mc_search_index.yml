@@ -1,0 +1,13 @@
+uuid: 763f0181-6532-4577-8021-c86980944dfe
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 324Cj5jo-UXXxExM9zQDZ4AEd_-eUtRmMsMquOpqxOA
+id: node.mc_search_index
+label: 'Search index'
+description: null
+targetEntityType: node
+cache: true

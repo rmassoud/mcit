@@ -1,0 +1,33 @@
+uuid: c92c5103-4870-49fe-a3b7-adeda943b7ea
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - scheduler
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+  scheduler:
+    expand_fieldset: when_required
+    fields_display_mode: vertical_tab
+    publish_enable: true
+    publish_past_date: error
+    publish_past_date_created: false
+    publish_required: false
+    publish_revision: true
+    publish_touch: true
+    show_message_after_update: true
+    unpublish_enable: true
+    unpublish_required: false
+    unpublish_revision: true
+_core:
+  default_config_hash: GpnJ8R62m5teLbvsGLRFX5IJ2WLFVpw9DG-7uZXe3y0
+name: Article
+type: mc_article
+description: 'Use <em>Article</em> for publishing time based information.'
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: false

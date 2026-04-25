@@ -1,0 +1,21 @@
+uuid: f49e812f-cadd-40ca-80d1-ad0235ad1aae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_key
+    - node.type.mc_topic
+_core:
+  default_config_hash: mu_IntGD25_quHZ4RRRwDxNSJmow9Y7XUQ2kDjeZ6V4
+id: node.mc_topic.field_mc_key
+field_name: field_mc_key
+entity_type: node
+bundle: mc_topic
+label: Key
+description: 'The unique identifier for this content. eg. topic.apple'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: 11ffef7a-61d2-4373-8940-8a97ba848b1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_search_exclude
+    - node.type.mc_section
+_core:
+  default_config_hash: QyuuXt0HCQovWTaKhW8MNF6lkuiDJ4f9o0PbbSwo8gQ
+id: node.mc_section.field_mc_search_exclude
+field_name: field_mc_search_exclude
+entity_type: node
+bundle: mc_section
+label: 'Search exclude'
+description: 'Do not show this content in search results.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

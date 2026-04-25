@@ -1,0 +1,21 @@
+uuid: 93a543ce-e9a2-4617-9e2b-7cbca471355c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_keywords
+    - node.type.mc_alert
+_core:
+  default_config_hash: vrBzdgxUiipm_DSN4UkZqBp-8GFMkKjLrgTOwMyBB90
+id: node.mc_alert.field_mc_keywords
+field_name: field_mc_keywords
+entity_type: node
+bundle: mc_alert
+label: Keywords
+description: 'Extra keywords can help with search results.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

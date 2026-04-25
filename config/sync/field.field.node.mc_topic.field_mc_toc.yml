@@ -1,0 +1,23 @@
+uuid: 25c6180e-54e5-4b7e-b0fa-4b9ad003b6a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_toc
+    - node.type.mc_topic
+_core:
+  default_config_hash: an2AyhkpXzg_UkcC8TJ0WYNnyH9LY3NEOTWA6mw7R2w
+id: node.mc_topic.field_mc_toc
+field_name: field_mc_toc
+entity_type: node
+bundle: mc_topic
+label: 'On this page'
+description: 'Select to display a table of contents on the top of the page.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

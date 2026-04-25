@@ -1,0 +1,21 @@
+uuid: 17e3543b-b26d-43f9-b657-8ddc8aa2d3c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_seo_title
+    - node.type.mc_topic
+_core:
+  default_config_hash: Z0Mg1hyydfdrGUOGPyoUjaEBliRgqUSHed2AZ14E4wg
+id: node.mc_topic.field_seo_title
+field_name: field_seo_title
+entity_type: node
+bundle: mc_topic
+label: 'SEO title'
+description: 'Use this field to overwrite the default HTML page title for SEO.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,28 @@
+uuid: 5ad2b7a8-7e62-43e8-80d3-e96ff07e668b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - morphos
+_core:
+  default_config_hash: L7FbM3e3kiSsrlikYaqcc0Zc8OtH5WyYe2U_JrpxyuE
+label: Video
+id: sdc.morphos.video
+source: sdc
+source_local_id: 'morphos:video'
+provider: morphos
+active_version: 359ed36d382b84d2
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        url:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value: null
+          expression: ℹ︎string␟value
+    fallback_metadata:
+      slot_definitions: {  }

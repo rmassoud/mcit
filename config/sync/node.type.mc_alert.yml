@@ -1,0 +1,33 @@
+uuid: 5ecea770-b0da-4a9d-b4ef-f2606a240232
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - scheduler
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+  scheduler:
+    expand_fieldset: when_required
+    fields_display_mode: vertical_tab
+    publish_enable: true
+    publish_past_date: error
+    publish_past_date_created: false
+    publish_required: false
+    publish_revision: true
+    publish_touch: true
+    show_message_after_update: true
+    unpublish_enable: true
+    unpublish_required: false
+    unpublish_revision: true
+_core:
+  default_config_hash: ac-QfwkGnVXq4SqtWJxvBu4aRh1eVsFy5Ce5yA_gKjg
+name: Alert
+type: mc_alert
+description: 'Use <em>Alert</em> for displaying time sensitive dismissible alerts.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

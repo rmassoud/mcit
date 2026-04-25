@@ -1,0 +1,13 @@
+uuid: 00092b98-9c7d-4233-b855-7e78c15af20e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: HI9OqRsdDMuakL42CFjGMyFPOeVY511H2jdXzYaZHjs
+id: node.alert
+label: Alert
+description: null
+targetEntityType: node
+cache: true

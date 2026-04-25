@@ -1,0 +1,13 @@
+uuid: 6ab72ea9-d7a0-455d-9e14-cd63f71337d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: _RTG-AmgmukGIBPLpk2e6asFPEcyLrR-YwWteSUCw4w
+id: node.mc_teaser_medium
+label: 'Teaser - Medium'
+description: null
+targetEntityType: node
+cache: true

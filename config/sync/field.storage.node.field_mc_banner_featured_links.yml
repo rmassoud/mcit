@@ -1,0 +1,21 @@
+uuid: 4e9d9fac-5d4c-42b1-b4ca-02bd0c04df07
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 3VPY7GrcDk9_NoYIjAaaMg5Zltl39g5XzGU1_tXkEjA
+id: node.field_mc_banner_featured_links
+field_name: field_mc_banner_featured_links
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

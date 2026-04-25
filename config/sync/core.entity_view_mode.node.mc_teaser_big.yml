@@ -1,0 +1,13 @@
+uuid: 0d0cdf2f-4e1e-4a4f-829a-8525f07c036e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 8I3jOo3523F800xOKR_eGh664eBFCNMLNxwLln3R3TA
+id: node.mc_teaser_big
+label: 'Teaser - Big'
+description: null
+targetEntityType: node
+cache: true

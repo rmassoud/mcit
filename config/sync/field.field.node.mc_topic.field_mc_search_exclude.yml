@@ -1,0 +1,23 @@
+uuid: 2be0c75b-f7f1-41fd-9905-99636f9753f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_search_exclude
+    - node.type.mc_topic
+_core:
+  default_config_hash: j_vUETEro3OiwCqTarRrunK9kca4bBcryszfyLpi2n4
+id: node.mc_topic.field_mc_search_exclude
+field_name: field_mc_search_exclude
+entity_type: node
+bundle: mc_topic
+label: 'Search exclude'
+description: 'Do not show this content in search results.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

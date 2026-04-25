@@ -1,0 +1,16 @@
+uuid: f91e3961-ca12-4174-868f-d23bb9e9113d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.submission_viewer
+  module:
+    - user
+_core:
+  default_config_hash: N7dbyEHZV-Yhj-FGmnMlZyJGdQiI_u1kjHxikqCCJsQ
+id: user_remove_role_action.submission_viewer
+label: 'Remove the Submission viewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: submission_viewer

@@ -1,0 +1,31 @@
+uuid: ee7ffadc-13d4-4b8c-b7fb-f151d194768b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_intent
+    - node.type.mc_person
+    - taxonomy.vocabulary.mc_intent
+_core:
+  default_config_hash: E-7UtWGbFD7-Ljfb3ZAqpWGOF3b-dYNezwEA16L22P0
+id: node.mc_person.field_mc_intent
+field_name: field_mc_intent
+entity_type: node
+bundle: mc_person
+label: Intent
+description: 'The intent assigned to the user when the content is viewed.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      mc_intent: mc_intent
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: 930aff84-aa78-4d6d-b403-40587ed2df37
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_hide
+    - node.type.mc_resource
+  module:
+    - options
+_core:
+  default_config_hash: d61XPi5OBM8lPjWHsL23tIAG359nSvsX2fpUZYOesYo
+id: node.mc_resource.field_mc_hide
+field_name: field_mc_hide
+entity_type: node
+bundle: mc_resource
+label: Hide
+description: 'Hide various parts of the page.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

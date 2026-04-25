@@ -1,0 +1,10 @@
+uuid: b025ff58-a9f1-4984-baa3-821332d1ed0f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: GufBG4ciNyD-y2OVzA-OaTPou_uOUTrrPmaDe3GFeoQ
+id: secondary
+label: 'Secondary navigation'
+description: 'Site section links for content outside the main navigation'
+locked: false

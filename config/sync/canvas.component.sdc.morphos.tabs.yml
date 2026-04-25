@@ -1,0 +1,94 @@
+uuid: 3ec270eb-a7b5-41d5-8f63-c171efa3a9ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+  theme:
+    - morphos
+_core:
+  default_config_hash: q9cX3GSCVeelCqbPrMhP6oFLqMYP7SMk6r0T4TVMSVY
+label: Tabs
+id: sdc.morphos.tabs
+source: sdc
+source_local_id: 'morphos:tabs'
+provider: morphos
+active_version: c36e5870be81bcf0
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        placement:
+          required: false
+          field_type: list_string
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value: null
+          expression: ℹ︎list_string␟value
+        size:
+          required: false
+          field_type: list_string
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value: null
+          expression: ℹ︎list_string␟value
+        style:
+          required: false
+          field_type: list_string
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value:
+            -
+              value: tabs-border
+          expression: ℹ︎list_string␟value
+    fallback_metadata:
+      slot_definitions:
+        items:
+          title: Items
+          description: 'Add tab items.'
+  af0e0ba1b5a77e5b:
+    settings:
+      prop_field_definitions:
+        placement:
+          required: false
+          field_type: list_string
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value:
+            -
+              value: tabs-top
+          expression: ℹ︎list_string␟value
+        size:
+          required: false
+          field_type: list_string
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value:
+            -
+              value: tabs-md
+          expression: ℹ︎list_string␟value
+        style:
+          required: false
+          field_type: list_string
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value:
+            -
+              value: tabs-border
+          expression: ℹ︎list_string␟value
+    fallback_metadata:
+      slot_definitions:
+        items:
+          title: Items

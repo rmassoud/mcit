@@ -1,0 +1,39 @@
+uuid: 641aaa3e-984b-4c90-96fd-2ba31898fc0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mc_content_fields_node
+  module:
+    - views
+_core:
+  default_config_hash: 2e7QaoRd1g9Q8LDAYj1Z_WjXT8TZmRABMQY1TzJmSbw
+label: 'Content fields Node: Audience'
+id: block.views_block.mc_content_fields_node-audience
+source: block
+source_local_id: 'views_block:mc_content_fields_node-audience'
+provider: views
+active_version: c49b3b575bbc2351
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: 'views_block:mc_content_fields_node-audience'
+        label: 'Content fields Node: Audience'
+        label_display: '0'
+        provider: views
+        views_label: ''
+        items_per_page: null
+    fallback_metadata:
+      slot_definitions: null
+  4a2131d8cf6d2e40:
+    settings:
+      default_settings:
+        id: 'views_block:mc_content_fields_node-audience'
+        label: 'Content fields Node: audience'
+        label_display: '0'
+        provider: views
+        views_label: ''
+        items_per_page: null
+    fallback_metadata:
+      slot_definitions: null

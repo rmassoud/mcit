@@ -1,0 +1,19 @@
+uuid: bc2dd047-7524-4428-89f0-3f142a066b2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.component.sdc.morphos.skip
+  theme:
+    - morphos
+_core:
+  default_config_hash: BpIsNh_kvW2ZSmiT6ru5MH-VrUsrlsSvWQ9KLzIs9Rs
+id: morphos.skip
+theme: morphos
+region: skip
+component_tree:
+  -
+    uuid: 8d0a456c-c593-4e7b-99fc-67dbf42f0172
+    component_id: sdc.morphos.skip
+    component_version: 01138110d8e7d2be
+    inputs: '{"text":"Skip to main content","anchor":"#main-content"}'

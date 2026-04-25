@@ -1,0 +1,28 @@
+uuid: c3072ddd-dc0f-4cd2-a635-2ebc901077a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mc_homepage
+  module:
+    - views
+_core:
+  default_config_hash: fS9bxVf2PCCH_B4GQuL_a8Va1QMXDUJu_fHmH42VSNA
+label: 'Homepage: Latest resources'
+id: block.views_block.mc_homepage-resources
+source: block
+source_local_id: 'views_block:mc_homepage-resources'
+provider: views
+active_version: a2eef09acd63538c
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: 'views_block:mc_homepage-resources'
+        label: 'Homepage: Latest resources'
+        label_display: '0'
+        provider: views
+        views_label: ''
+        items_per_page: null
+    fallback_metadata:
+      slot_definitions: null

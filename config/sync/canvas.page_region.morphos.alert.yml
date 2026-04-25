@@ -1,0 +1,25 @@
+uuid: 8a5eaadf-5dd4-4c1b-9302-85363e15da0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.component.block.system_messages_block
+    - canvas.component.block.views_block.alerts-alert_banner
+  theme:
+    - morphos
+_core:
+  default_config_hash: RKVDmFIAeWOvCa5J_Siql8IivEoDWf9bx1669s1-V9c
+id: morphos.alert
+theme: morphos
+region: alert
+component_tree:
+  -
+    uuid: 1a651936-9788-419e-890e-8eaeef09250f
+    component_id: block.system_messages_block
+    component_version: 0fd5234097704a5d
+    inputs: '{"label":"Messages","label_display":"0"}'
+  -
+    uuid: d50c1302-f217-4293-ab48-9d9ff7bb572f
+    component_id: block.views_block.alerts-alert_banner
+    component_version: 3cb293e466f2d1b9
+    inputs: '{"label":"Alerts: Alert banner","label_display":"0","views_label":"","items_per_page":null}'

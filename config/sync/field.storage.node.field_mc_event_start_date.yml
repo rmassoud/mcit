@@ -1,0 +1,22 @@
+uuid: cb81a646-abdf-41ef-a113-3c703e22d0d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+_core:
+  default_config_hash: kL_0nSZh1O7xbV5bMVR0g1ll0MNwIIiqjDI6ziFlLZ8
+id: node.field_mc_event_start_date
+field_name: field_mc_event_start_date
+entity_type: node
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

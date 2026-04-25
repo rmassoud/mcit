@@ -1,0 +1,39 @@
+uuid: 8e6ba2d1-b120-4b08-98eb-3b8aada1bca2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mc_audience_content
+  module:
+    - views
+_core:
+  default_config_hash: 5oEThRvqn_d3am1REPtrU87kwmDmZOuCYITAd-6gcWc
+label: 'Audience content: Events'
+id: block.views_block.mc_audience_content-events
+source: block
+source_local_id: 'views_block:mc_audience_content-events'
+provider: views
+active_version: 8db90e4e5d557977
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: 'views_block:mc_audience_content-events'
+        label: 'Audience content: Events'
+        label_display: '0'
+        provider: views
+        views_label: ''
+        items_per_page: null
+    fallback_metadata:
+      slot_definitions: null
+  45d31d4c9dc9141d:
+    settings:
+      default_settings:
+        id: 'views_block:mc_audience_content-events'
+        label: 'Audience content: events'
+        label_display: '0'
+        provider: views
+        views_label: ''
+        items_per_page: null
+    fallback_metadata:
+      slot_definitions: null

@@ -1,0 +1,13 @@
+uuid: 8a72c36f-5a90-4616-b063-720c5bf3b0db
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: q2UdSYWCiXX8h5y1siBNygMO0UlFVf4uz2sJQqHWo-E
+id: node.mc_tile
+label: Tile
+description: null
+targetEntityType: node
+cache: true

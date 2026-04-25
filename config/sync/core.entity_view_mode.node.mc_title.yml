@@ -1,0 +1,13 @@
+uuid: ed220138-9b39-41ea-897e-7f2fd75e4bfb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: eoP7ej62ie13E-SjrHZgKKsluXfB9wGucPdtOTuhP7Q
+id: node.mc_title
+label: Title
+description: null
+targetEntityType: node
+cache: true

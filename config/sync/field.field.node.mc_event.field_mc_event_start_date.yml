@@ -1,0 +1,23 @@
+uuid: 2e8c05e7-8126-49a4-a2a8-fef3d3c4feb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_event_start_date
+    - node.type.mc_event
+  module:
+    - datetime
+_core:
+  default_config_hash: hGze4B4aeUP38CvT5SiBkd0QX-uQ0HJbMKdULWocR2U
+id: node.mc_event.field_mc_event_start_date
+field_name: field_mc_event_start_date
+entity_type: node
+bundle: mc_event
+label: 'Start date'
+description: 'The start date and time of the event.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

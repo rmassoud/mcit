@@ -1,0 +1,16 @@
+uuid: e10dde51-d3e2-483a-92d4-b020916168df
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.content_approver
+  module:
+    - user
+_core:
+  default_config_hash: '-WPekuZ_oC8xD6sPcU2acGBzycqLuGyvaE_C63NwVeQ'
+id: user_remove_role_action.content_approver
+label: 'Remove the Content approver role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: content_approver

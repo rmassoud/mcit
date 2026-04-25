@@ -1,0 +1,24 @@
+uuid: 0c35a3da-8d87-4769-a2db-ed9ebe0dcfaa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_intro
+    - node.type.mc_person
+  module:
+    - text
+_core:
+  default_config_hash: YCH-bfrXwS2blFyIsnRxawhTc68hylHS7aNmeihp_Zw
+id: node.mc_person.field_mc_intro
+field_name: field_mc_intro
+entity_type: node
+bundle: mc_person
+label: Introduction
+description: 'Introductory HTML which displays at the top of the page in the header.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,23 @@
+uuid: dfe4360a-f034-4c88-aa6b-66c2cf7b1c5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_seo_analysis
+    - node.type.mc_person
+  module:
+    - yoast_seo
+_core:
+  default_config_hash: 4uMfF36x12M2OYHPYgfiLH5_0Ue4HKBOxgud3MC9nHE
+id: node.mc_person.field_seo_analysis
+field_name: field_seo_analysis
+entity_type: node
+bundle: mc_person
+label: 'SEO analysis'
+description: 'Pick the main keyword this page is about.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: yoast_seo

@@ -1,0 +1,21 @@
+uuid: f70374f8-9ee5-4770-9871-53e70fa24292
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_keywords
+    - node.type.mc_article
+_core:
+  default_config_hash: QCQgo2u20TyC3SGkkHhqDSE7LmGD0hQsFbg-Mvnv14Q
+id: node.mc_article.field_mc_keywords
+field_name: field_mc_keywords
+entity_type: node
+bundle: mc_article
+label: Keywords
+description: 'Extra keywords can help with search results.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

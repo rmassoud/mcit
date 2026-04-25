@@ -1,0 +1,34 @@
+uuid: c296b2af-8949-47c7-851c-8ec10486f729
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - scheduler
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  scheduler:
+    expand_fieldset: when_required
+    fields_display_mode: vertical_tab
+    publish_enable: true
+    publish_past_date: error
+    publish_past_date_created: false
+    publish_required: false
+    publish_revision: true
+    publish_touch: true
+    show_message_after_update: true
+    unpublish_enable: true
+    unpublish_required: false
+    unpublish_revision: true
+_core:
+  default_config_hash: FsRKToFOwTd1i_Ic1iUUyb8Y4YAgRQRYo-1oEUJqOUg
+name: Person
+type: mc_person
+description: 'Use <em>Person</em> for authors or staff.'
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: false

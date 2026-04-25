@@ -1,0 +1,23 @@
+uuid: 656c42bb-6758-4728-be3f-99cf4474e48f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_updated_date
+    - node.type.mc_person
+  module:
+    - datetime
+_core:
+  default_config_hash: j5GLZ_w5KzrtNQgVzRU5MES2pAcOfvcuZV1bi8vA8Mg
+id: node.mc_person.field_mc_updated_date
+field_name: field_mc_updated_date
+entity_type: node
+bundle: mc_person
+label: 'Last updated'
+description: 'The date the content was most recently updated.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

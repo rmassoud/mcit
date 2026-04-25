@@ -1,0 +1,24 @@
+uuid: da0c7617-b5ce-4b1a-9cc1-da1a1090427f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_content
+    - node.type.mc_page
+  module:
+    - text
+_core:
+  default_config_hash: ZMZ0U5xJs8DqbEgtFYbZYU2OL4kqj11Oxkh2RxBYNF0
+id: node.mc_page.field_mc_content
+field_name: field_mc_content
+entity_type: node
+bundle: mc_page
+label: Content
+description: 'The content of this page.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

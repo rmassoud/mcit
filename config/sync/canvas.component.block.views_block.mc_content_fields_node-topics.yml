@@ -1,0 +1,39 @@
+uuid: ee639cdb-8b6f-46fb-b2ea-3b2e269f22a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mc_content_fields_node
+  module:
+    - views
+_core:
+  default_config_hash: SPnY9xJg7czST250mCk46T2MDLtr0q-t2nQRP2ONaPw
+label: 'Content fields Node: Topics'
+id: block.views_block.mc_content_fields_node-topics
+source: block
+source_local_id: 'views_block:mc_content_fields_node-topics'
+provider: views
+active_version: 85bffdde172fd1a4
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: 'views_block:mc_content_fields_node-topics'
+        label: 'Content fields Node: Topics'
+        label_display: '0'
+        provider: views
+        views_label: ''
+        items_per_page: null
+    fallback_metadata:
+      slot_definitions: null
+  60e7cf065721b4e3:
+    settings:
+      default_settings:
+        id: 'views_block:mc_content_fields_node-topics'
+        label: 'Content fields Node: topics'
+        label_display: '0'
+        provider: views
+        views_label: ''
+        items_per_page: null
+    fallback_metadata:
+      slot_definitions: null

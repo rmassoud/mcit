@@ -1,0 +1,16 @@
+uuid: 38e942c2-713b-4fd1-9add-5ae9ac026ed4
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.submission_viewer
+  module:
+    - user
+_core:
+  default_config_hash: hYXJlOwxBwCy2w7prYmtaSSWAWQ5ok7QtUPrcIrKx5I
+id: user_add_role_action.submission_viewer
+label: 'Add the Submission viewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: submission_viewer

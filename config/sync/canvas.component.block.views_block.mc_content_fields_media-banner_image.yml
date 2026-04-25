@@ -1,0 +1,39 @@
+uuid: cc459377-97aa-4a2b-a5a4-8ba97a6e61be
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mc_content_fields_media
+  module:
+    - views
+_core:
+  default_config_hash: NkbQv5O-ZyOkCUM4nuM08dy69z0SSa-5kcHXE8zmaE4
+label: 'Content fields Media: Banner image'
+id: block.views_block.mc_content_fields_media-banner_image
+source: block
+source_local_id: 'views_block:mc_content_fields_media-banner_image'
+provider: views
+active_version: 734d413cb0526a90
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: 'views_block:mc_content_fields_media-banner_image'
+        label: 'Content fields Media: Banner image'
+        label_display: '0'
+        provider: views
+        views_label: ''
+        items_per_page: null
+    fallback_metadata:
+      slot_definitions: null
+  81b3f560e55232d9:
+    settings:
+      default_settings:
+        id: 'views_block:mc_content_fields_media-banner_image'
+        label: 'Content fields Media: banner_image'
+        label_display: '0'
+        provider: views
+        views_label: ''
+        items_per_page: null
+    fallback_metadata:
+      slot_definitions: null

@@ -1,0 +1,16 @@
+uuid: 5a1c7035-643b-4b57-ac60-cf0e83178ccf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: xiwvb5YdJqu7NWsgI8qF7VBAk4-9qW0SnNjf5AD-BqE
+id: content
+label: Content
+type: 'canonical_entities:node'
+pattern: '[node:menu-link:parent:url:path]/[node:menu-link:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: -7
+relationships: {  }

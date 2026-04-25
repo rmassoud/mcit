@@ -1,0 +1,50 @@
+uuid: e0c07760-1159-43e0-a7cb-8163a6f0a4ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mc_audience_content
+  module:
+    - views
+_core:
+  default_config_hash: YdVANq1ujpiAcbM0KOj23ZTVIMfXYDfSbg3xT4h3GOo
+label: 'Audience content: Resources'
+id: block.views_block.mc_audience_content-resources
+source: block
+source_local_id: 'views_block:mc_audience_content-resources'
+provider: views
+active_version: 15816498540ed678
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: 'views_block:mc_audience_content-resources'
+        label: 'Audience content: Resources'
+        label_display: '0'
+        provider: views
+        views_label: ''
+        items_per_page: null
+    fallback_metadata:
+      slot_definitions: null
+  3f20820dc559dd30:
+    settings:
+      default_settings:
+        id: 'views_block:mc_audience_content-resources'
+        label: 'Audience content: resources'
+        label_display: '0'
+        provider: views
+        views_label: ''
+        items_per_page: null
+    fallback_metadata:
+      slot_definitions: null
+  89cb5262490f88a5:
+    settings:
+      default_settings:
+        id: 'views_block:mc_audience_content-resources'
+        label: 'Audience content: events'
+        label_display: '0'
+        provider: views
+        views_label: ''
+        items_per_page: null
+    fallback_metadata:
+      slot_definitions: null

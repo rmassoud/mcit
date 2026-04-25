@@ -1,0 +1,42 @@
+uuid: 16bc1d67-e433-4d0c-8e05-c944c6e0de85
+langcode: en
+status: true
+dependencies: {  }
+name: 'Lists (Views)'
+configEntityTypeId: component
+weight: 0
+items:
+  - block.views_block.alerts-alert_banner
+  - block.views_block.demo_displays-card_icon
+  - block.views_block.demo_displays-mc_card_image
+  - block.views_block.demo_displays-mc_card_simple
+  - block.views_block.demo_displays-mc_summary
+  - block.views_block.demo_displays-mc_teaser_big
+  - block.views_block.demo_displays-mc_teaser_medium
+  - block.views_block.demo_displays-mc_teaser_small
+  - block.views_block.demo_displays-mc_tile
+  - block.views_block.demo_displays-mc_title
+  - block.views_block.mc_audience_content-articles
+  - block.views_block.mc_audience_content-events
+  - block.views_block.mc_audience_content-resources
+  - block.views_block.mc_audience_content-tasks
+  - block.views_block.mc_content_fields_media-banner_image
+  - block.views_block.mc_content_fields_media-featured_image
+  - block.views_block.mc_content_fields_node-attachments
+  - block.views_block.mc_content_fields_node-audience
+  - block.views_block.mc_content_fields_node-author
+  - block.views_block.mc_content_fields_node-relateds
+  - block.views_block.mc_content_fields_node-topics
+  - block.views_block.mc_homepage-articles
+  - block.views_block.mc_homepage-events
+  - block.views_block.mc_homepage-resources
+  - block.views_block.mc_person_content-articles
+  - block.views_block.mc_search-articles
+  - block.views_block.mc_search-events
+  - block.views_block.mc_search-people
+  - block.views_block.mc_search-resources
+  - block.views_block.mc_search-search
+  - block.views_block.mc_topic_content-articles
+  - block.views_block.mc_topic_content-events
+  - block.views_block.mc_topic_content-resources
+  - block.views_block.recent_pages-block_recent_pages

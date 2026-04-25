@@ -1,0 +1,24 @@
+uuid: 548b8d84-de62-45d1-8a1b-63a754cd78be
+langcode: en
+status: false
+dependencies:
+  module:
+    - sitemap
+_core:
+  default_config_hash: uyLWWx5JG6WbkqmERbnWx5dU1pQt1VHnkQcXAGDhQbo
+label: Sitemap
+id: block.sitemap
+source: block
+source_local_id: sitemap
+provider: sitemap
+active_version: e788dac5d4732030
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: sitemap
+        label: Sitemap
+        label_display: '0'
+        provider: sitemap
+    fallback_metadata:
+      slot_definitions: null

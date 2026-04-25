@@ -1,0 +1,23 @@
+uuid: 1eb440f9-b672-4230-8206-a870ae09e9c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_alert_end_date
+    - node.type.mc_audience
+  module:
+    - datetime
+_core:
+  default_config_hash: oenGHTABz1tsLe_BT5A5q-x9cq6JoKs1dv418a7dovI
+id: node.mc_audience.field_mc_alert_end_date
+field_name: field_mc_alert_end_date
+entity_type: node
+bundle: mc_audience
+label: 'End date'
+description: 'The end date to show the alert.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,20 @@
+uuid: c0605a5d-b062-415e-91db-e5c8119cd870
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: NzeKHhDEAulpIamK-kJpwlrVL_TjSe_52OW-U2kyBQY
+id: node.field_mc_search_exclude
+field_name: field_mc_search_exclude
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

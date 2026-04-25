@@ -1,0 +1,21 @@
+uuid: 53b9cd6f-12ce-487a-b11d-8b0132e9537a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: nT3c9daNSwXXgWpl81cmJgdeFC6dM6iG4pAsaSal2rs
+id: node.field_mc_event_location
+field_name: field_mc_event_location
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

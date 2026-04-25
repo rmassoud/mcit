@@ -1,0 +1,21 @@
+uuid: b58517c1-0a41-40da-86c7-35a6cce1819f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_banner_featured_title
+    - node.type.mc_resource
+_core:
+  default_config_hash: xRRJSOI7RvbWEDaUeTn2opy7XQ_dSsKhBeSsqwkDLm0
+id: node.mc_resource.field_mc_banner_featured_title
+field_name: field_mc_banner_featured_title
+entity_type: node
+bundle: mc_resource
+label: 'Featured title'
+description: 'Custom heading to appear on top of the featured links.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

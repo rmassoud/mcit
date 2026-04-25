@@ -1,0 +1,13 @@
+uuid: 69a525f3-1d07-4987-a738-bd109caf52b9
+langcode: en
+status: true
+dependencies: {  }
+name: Dashboard
+configEntityTypeId: component
+weight: 0
+items:
+  - block.dashboard_site_status
+  - block.navigation_dashboard
+  - block.views_block.publishing_content-block_drafts
+  - block.views_block.publishing_content-block_scheduled
+  - block.views_block.recent_content-block_recent_content

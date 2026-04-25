@@ -1,0 +1,10 @@
+uuid: 68990392-27cf-4974-9cac-6f97ae096be1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: XJWhAvKfTVHMXl8C590U1liVsy1OEGqZDFoG-NL0cdc
+id: mc_standard_date_time
+label: 'Standard date time'
+locked: false
+pattern: 'j F Y, g:ia'

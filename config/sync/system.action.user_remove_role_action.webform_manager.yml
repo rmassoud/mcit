@@ -1,0 +1,16 @@
+uuid: aaa0dd79-62f9-4108-95a3-9ad003e89a37
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.webform_manager
+  module:
+    - user
+_core:
+  default_config_hash: ccLxA5xzmn1CW4L_tiHCvQ7Ic7n1dt1DUCqX7RdOx2M
+id: user_remove_role_action.webform_manager
+label: 'Remove the Webform manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: webform_manager

@@ -1,0 +1,28 @@
+uuid: 2f0df5ef-05b6-4f5a-bd38-efee8144f303
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mc_search
+  module:
+    - views
+_core:
+  default_config_hash: 6BqSJ1WRFynBdvO9pVcx8mBin3OefBXK0toLQl2Y2DA
+label: 'Search: Events'
+id: block.views_block.mc_search-events
+source: block
+source_local_id: 'views_block:mc_search-events'
+provider: views
+active_version: d69ca9c133363584
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: 'views_block:mc_search-events'
+        label: 'Search: Events'
+        label_display: '0'
+        provider: views
+        views_label: ''
+        items_per_page: null
+    fallback_metadata:
+      slot_definitions: null

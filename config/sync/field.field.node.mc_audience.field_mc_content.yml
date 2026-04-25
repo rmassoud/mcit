@@ -1,0 +1,24 @@
+uuid: 481d1536-baf7-456e-bbb6-f72b5deecb2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_content
+    - node.type.mc_audience
+  module:
+    - text
+_core:
+  default_config_hash: Pl2uavAFVtzXpHTeQ0svdmorrddgF488lOsWyqWUTrY
+id: node.mc_audience.field_mc_content
+field_name: field_mc_content
+entity_type: node
+bundle: mc_audience
+label: Content
+description: 'The content of this page.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

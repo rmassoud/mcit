@@ -1,0 +1,23 @@
+uuid: 93052fae-9a4b-474b-9c29-96ddefc52958
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_updated_date
+    - node.type.mc_topic
+  module:
+    - datetime
+_core:
+  default_config_hash: PSiopSPqo8zCBrm1CNA0xLCBfk2Su9iRM652yYT3cNI
+id: node.mc_topic.field_mc_updated_date
+field_name: field_mc_updated_date
+entity_type: node
+bundle: mc_topic
+label: 'Last updated'
+description: 'The date the content was most recently updated.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,12 @@
+uuid: 8e2d0622-998d-429d-9013-b62a277c452b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: H1KZWJ-iz62g4uTZ3OofhOp1PEzMjXo3LDWzvCV-pZs
+name: Behavior
+configEntityTypeId: component
+weight: -5
+items:
+  - sdc.morphos.palette_swap_behavior
+  - sdc.morphos.scroll_reveal_behavior

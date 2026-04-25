@@ -1,0 +1,13 @@
+uuid: ca6570b0-2db1-4470-a671-a94476f5fbff
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: wRiewz1gMcRZXMUP6FYDQE06QrDBPeXzODGwZlY56KE
+id: node.mc_card_icon
+label: 'Card - Icon'
+description: null
+targetEntityType: node
+cache: true

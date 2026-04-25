@@ -1,0 +1,40 @@
+uuid: 1dd5655a-903e-41a5-980c-975a190445c1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - morphos
+_core:
+  default_config_hash: 64aHGC-7JIGKzrB6y7l-w_CgfsoKfETGRocrfo-qLIo
+label: Skip
+id: sdc.morphos.skip
+source: sdc
+source_local_id: 'morphos:skip'
+provider: morphos
+active_version: 01138110d8e7d2be
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        text:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Skip to main content'
+          expression: ℹ︎string␟value
+        anchor:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: '#main-content'
+          expression: ℹ︎string␟value
+    fallback_metadata:
+      slot_definitions: {  }

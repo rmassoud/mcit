@@ -1,0 +1,21 @@
+uuid: c576fa32-3e61-4858-8dd1-29da45a4aeb1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_banner_title
+    - node.type.mc_alert
+_core:
+  default_config_hash: YzWNm6PacqeaoNM2hhaeB2hHpL3lymGvMpthg6T9bKg
+id: node.mc_alert.field_mc_banner_title
+field_name: field_mc_banner_title
+entity_type: node
+bundle: mc_alert
+label: 'Banner title'
+description: 'Override the standard title for the H1.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

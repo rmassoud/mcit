@@ -1,0 +1,27 @@
+uuid: 41b7895a-12d7-4a99-af2b-405cd49a10eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - scheduler
+third_party_settings:
+  scheduler:
+    expand_fieldset: when_required
+    fields_display_mode: vertical_tab
+    publish_enable: false
+    publish_past_date: error
+    publish_past_date_created: false
+    publish_required: false
+    publish_revision: false
+    publish_touch: false
+    show_message_after_update: true
+    unpublish_enable: false
+    unpublish_required: false
+    unpublish_revision: false
+_core:
+  default_config_hash: SaPxfOqRWJ_Dl0jXcYsIkdF1AZQ8_7M-0lAFLTfbvbs
+name: Intent
+vid: mc_intent
+description: 'Assigns intent to content for augmenting the profile when the content is viewed.'
+weight: 0
+new_revision: false

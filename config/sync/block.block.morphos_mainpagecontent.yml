@@ -1,0 +1,22 @@
+uuid: 615281b6-0829-4a5d-9145-2bbd412adcb9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - morphos
+_core:
+  default_config_hash: DNpbfC6N0CHo0aUq4KntdlD3ZBlYqHsgKn_GUcvZfZg
+id: morphos_mainpagecontent
+theme: morphos
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,13 @@
+uuid: e6222984-ec83-485f-82c1-4850b3b3584a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: uM5Y5C2Xog3ZNCHiFQramrTujl8ItAai6jyPFlJksow
+id: node.mc_card_image
+label: 'Card - Image'
+description: null
+targetEntityType: node
+cache: true

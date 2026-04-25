@@ -1,0 +1,31 @@
+uuid: 4305e045-6821-4cf0-9c94-a4bf261e6231
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_topics
+    - node.type.mc_article
+    - node.type.mc_topic
+_core:
+  default_config_hash: '-ee5O0gP6tz71XZK06x87WNL6wu8KBa2SFnPmUDgoAY'
+id: node.mc_article.field_mc_topics
+field_name: field_mc_topics
+entity_type: node
+bundle: mc_article
+label: Topics
+description: 'Topics which this content is about.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      mc_topic: mc_topic
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

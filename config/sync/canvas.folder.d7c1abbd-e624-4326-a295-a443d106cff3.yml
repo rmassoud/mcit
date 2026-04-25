@@ -1,0 +1,9 @@
+uuid: d7c1abbd-e624-4326-a295-a443d106cff3
+langcode: en
+status: true
+dependencies: {  }
+name: Sitemap
+configEntityTypeId: component
+weight: 0
+items:
+  - block.sitemap

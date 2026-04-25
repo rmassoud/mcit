@@ -1,0 +1,22 @@
+uuid: 10204058-fbf2-4247-93f9-350de64998a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - honeypot
+    - system
+    - webform
+_core:
+  default_config_hash: '-Sr5IRKELTQrrVQi8RfZHia04Vp9k57ExZeGZt4BcR8'
+id: submission_viewer
+label: 'Submission viewer'
+weight: -6
+is_admin: false
+permissions:
+  - 'access webform help'
+  - 'access webform overview'
+  - 'bypass honeypot protection'
+  - 'delete own files'
+  - 'view any webform submission'
+  - 'view the administration theme'

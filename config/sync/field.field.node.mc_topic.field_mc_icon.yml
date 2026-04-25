@@ -1,0 +1,25 @@
+uuid: c4f8583c-fcb8-4305-862d-2202eaaa5031
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_icon
+    - node.type.mc_topic
+  module:
+    - ui_icons_field
+_core:
+  default_config_hash: V2ToVd1jg8Mx6HOzr-GZzZn1eFy7G5lxJSXnIjYaBjE
+id: node.mc_topic.field_mc_icon
+field_name: field_mc_icon
+entity_type: node
+bundle: mc_topic
+label: Icon
+description: 'Select the icon to use in cards and other displays.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_icon_pack:
+    phosphor: phosphor
+field_type: ui_icon

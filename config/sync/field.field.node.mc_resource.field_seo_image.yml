@@ -1,0 +1,26 @@
+uuid: 57c492eb-1a17-4d17-a4bb-adf0ea1c8592
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_seo_image
+    - media.type.image
+    - node.type.mc_resource
+_core:
+  default_config_hash: QWwzm8y-Yr7KTm1ym72lvwjNEhkC7nlmuv_chs428hE
+id: node.mc_resource.field_seo_image
+field_name: field_seo_image
+entity_type: node
+bundle: mc_resource
+label: 'SEO image'
+description: 'Upload an image to be used when the page is shared on social media sites.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+field_type: entity_reference

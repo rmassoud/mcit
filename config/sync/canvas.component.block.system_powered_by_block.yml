@@ -1,0 +1,24 @@
+uuid: 89c03d29-012e-4a04-a3d0-b2514443a5ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+_core:
+  default_config_hash: Eg-HY0KaJci_CGXsJSFiy5mzxs-eE_cBG8Us7NZDEAw
+label: 'Powered by Drupal'
+id: block.system_powered_by_block
+source: block
+source_local_id: system_powered_by_block
+provider: system
+active_version: fcc4b9a4f6d6de35
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: system_powered_by_block
+        label: 'Powered by Drupal'
+        label_display: '0'
+        provider: system
+    fallback_metadata:
+      slot_definitions: null

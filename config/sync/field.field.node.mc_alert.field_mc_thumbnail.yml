@@ -1,0 +1,31 @@
+uuid: 486bf2a5-bb46-4a33-bc51-56dd134a1bf8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_thumbnail
+    - media.type.image
+    - node.type.mc_alert
+_core:
+  default_config_hash: HSn78DWwLlL0DOmKATmubTT-BShvS7Af4UPf5iq2BvI
+id: node.mc_alert.field_mc_thumbnail
+field_name: field_mc_thumbnail
+entity_type: node
+bundle: mc_alert
+label: Thumbnail
+description: 'Thumbnail image used in cards and teasers, as well as for metadata.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

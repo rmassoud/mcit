@@ -1,0 +1,25 @@
+uuid: 87712ea5-5cc0-4dd0-b303-9aec5bd9fed7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_alert_type
+    - node.type.mc_alert
+  module:
+    - options
+_core:
+  default_config_hash: 4FuiYWSPmshg1VTInwsV_3UMlh_RlHmGVSm8Kz3nhdc
+id: node.mc_alert.field_mc_alert_type
+field_name: field_mc_alert_type
+entity_type: node
+bundle: mc_alert
+label: Type
+description: 'The classification for the alert.'
+required: true
+translatable: false
+default_value:
+  -
+    value: info
+default_value_callback: ''
+settings: {  }
+field_type: list_string

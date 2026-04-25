@@ -1,0 +1,28 @@
+uuid: 79d6de4e-de83-47da-9fdf-2940b1bb3fb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.demo_displays
+  module:
+    - views
+_core:
+  default_config_hash: dIDOPTB7j0u7y4EB9y2jYTNV5hOIYL7yhOSZYjQVZ5Q
+label: 'Demo Displays: Teaser - Medium'
+id: block.views_block.demo_displays-mc_teaser_medium
+source: block
+source_local_id: 'views_block:demo_displays-mc_teaser_medium'
+provider: views
+active_version: f26adfdd4c8106f6
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: 'views_block:demo_displays-mc_teaser_medium'
+        label: 'Demo Displays: Teaser - Medium'
+        label_display: '0'
+        provider: views
+        views_label: ''
+        items_per_page: null
+    fallback_metadata:
+      slot_definitions: null

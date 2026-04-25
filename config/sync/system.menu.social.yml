@@ -1,0 +1,10 @@
+uuid: cd712377-a240-4cbc-99da-d9040ec97f75
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AK5-cDJ_B9t6F_gFiCstDVeTTMyA7WFS6ty1Nb4uMKI
+id: social
+label: Socials
+description: 'Social media links'
+locked: false

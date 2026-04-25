@@ -1,0 +1,21 @@
+uuid: 43cadec5-362d-4472-ba81-ad52d0aed26c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: _3Qvloeqb-X5M6R3egXRDCsr-wMbo3678vWWrM9ZMDI
+id: node.field_mc_topics
+field_name: field_mc_topics
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

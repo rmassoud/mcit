@@ -1,0 +1,23 @@
+uuid: 7db341b9-215a-4715-9ca5-de58c1d5b913
+langcode: en
+status: true
+dependencies:
+  theme:
+    - morphos
+_core:
+  default_config_hash: lyBFzTc68OZ0f_FUelLEwSfhMDys162EwDh-3kpv0PQ
+label: 'Accordion Group'
+id: sdc.morphos.accordion_group
+source: sdc
+source_local_id: 'morphos:accordion_group'
+provider: morphos
+active_version: 15d2a2e4d0f67712
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions: {  }
+    fallback_metadata:
+      slot_definitions:
+        accordion_items:
+          title: 'Accordion items'
+          description: 'Add accordion items.'

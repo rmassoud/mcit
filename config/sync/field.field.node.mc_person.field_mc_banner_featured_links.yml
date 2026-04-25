@@ -1,0 +1,31 @@
+uuid: 8a3d5fc4-49dd-41cb-a761-71617118017f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_banner_featured_links
+    - node.type.mc_page
+    - node.type.mc_person
+_core:
+  default_config_hash: PUN2eX-WFm4AOhp_1mcnip7doeVAgRDjSAa9yYfoZ-o
+id: node.mc_person.field_mc_banner_featured_links
+field_name: field_mc_banner_featured_links
+entity_type: node
+bundle: mc_person
+label: 'Featured links'
+description: 'A list of featured links to sub pages in the section.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      mc_page: mc_page
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: null
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: bd8947dd-acd3-426f-b14c-507b0a7a585f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - ui_icons_field
+_core:
+  default_config_hash: U3EjR6lPYKlMC1kV-JC9Lln1eIIkZ4ePoELbf42Mt6g
+id: node.field_mc_icon
+field_name: field_mc_icon
+entity_type: node
+type: ui_icon
+settings: {  }
+module: ui_icons_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,27 @@
+uuid: 1b329873-9c48-425f-8cc4-0b1b149d8e5f
+langcode: en
+status: true
+dependencies:
+  module:
+    - scheduler
+third_party_settings:
+  scheduler:
+    expand_fieldset: when_required
+    fields_display_mode: vertical_tab
+    publish_enable: false
+    publish_past_date: error
+    publish_past_date_created: false
+    publish_required: false
+    publish_revision: false
+    publish_touch: false
+    show_message_after_update: true
+    unpublish_enable: false
+    unpublish_required: false
+    unpublish_revision: false
+_core:
+  default_config_hash: yLueOiWlDRT5V7-E9zCgh_oWljofYl-rsX0sstcU8Bo
+name: 'Event Type'
+vid: mc_event_type
+description: 'Classifies events so that they can be filtered.'
+weight: 0
+new_revision: false

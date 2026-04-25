@@ -1,0 +1,10 @@
+uuid: ffea908d-9571-491f-90ba-122c7fb077c4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qnpwS9h8aMkkrCRG-kTFeK5sSdLRGemcTLlWugELaxI
+id: mc_standard_date
+label: 'Standard date'
+locked: false
+pattern: 'j F Y'

@@ -1,0 +1,13 @@
+uuid: 7aae2db0-0327-464e-b82b-ce2a54d430e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: Azi_G-Sc3lk4M-7rSEPr7GZNdgEamaLr5SEiNeuezAU
+id: node.mc_summary
+label: Summary
+description: null
+targetEntityType: node
+cache: true

@@ -1,0 +1,23 @@
+uuid: d35da8f7-9607-4c48-aeda-cab1f4908f7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_review_date
+    - node.type.mc_person
+  module:
+    - datetime
+_core:
+  default_config_hash: N8yk0z02L9RC0YpqW7i2W6OJxgyu5iWGrA7e9RM0B-4
+id: node.mc_person.field_mc_review_date
+field_name: field_mc_review_date
+entity_type: node
+bundle: mc_person
+label: 'Review date'
+description: 'The date the content needs to be reviewed by.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

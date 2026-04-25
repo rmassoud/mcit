@@ -1,0 +1,21 @@
+uuid: ef600cfb-6546-48f3-9aec-3c8048b7eecd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: fImEJfp7pL7qxuTKB4SomJIy9oEY8YFa-bdv58uGQ9Q
+id: node.field_mc_tasks
+field_name: field_mc_tasks
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

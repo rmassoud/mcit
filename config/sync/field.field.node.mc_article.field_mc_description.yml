@@ -1,0 +1,21 @@
+uuid: 3e972fa3-9771-47fd-8f02-05826717b19c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mc_description
+    - node.type.mc_article
+_core:
+  default_config_hash: LDshBvhOXFpJoOpKwV0Ck_JMEy5yQFYiYdQCw-nC4RM
+id: node.mc_article.field_mc_description
+field_name: field_mc_description
+entity_type: node
+bundle: mc_article
+label: Description
+description: 'Content description which appears in teasers, cards and metadata.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,13 @@
+uuid: 4f4209da-c3a4-4cc1-95a1-39ea5f2611f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: obISxd38zl8bUHh2p7akygOOzv2okvKs8cTbHCZlSpE
+id: node.mc_card_simple
+label: 'Card - Simple'
+description: null
+targetEntityType: node
+cache: true

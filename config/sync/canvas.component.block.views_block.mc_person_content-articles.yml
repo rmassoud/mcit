@@ -1,0 +1,39 @@
+uuid: b8266f0c-6039-4cd7-bd8b-70244359f621
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mc_person_content
+  module:
+    - views
+_core:
+  default_config_hash: SevQ-pPvGu4eclEr7j-YFebVYctczz1F7LiSQRuug1M
+label: 'Person content: Articles'
+id: block.views_block.mc_person_content-articles
+source: block
+source_local_id: 'views_block:mc_person_content-articles'
+provider: views
+active_version: bb351f9dfd79999a
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: 'views_block:mc_person_content-articles'
+        label: 'Person content: Articles'
+        label_display: '0'
+        provider: views
+        views_label: ''
+        items_per_page: null
+    fallback_metadata:
+      slot_definitions: null
+  e118f5cc4253aa64:
+    settings:
+      default_settings:
+        id: 'views_block:mc_person_content-articles'
+        label: 'Person content: articles'
+        label_display: '0'
+        provider: views
+        views_label: ''
+        items_per_page: null
+    fallback_metadata:
+      slot_definitions: null
