@@ -1,0 +1,8 @@
+#!/bin/bash
+
+## Description: Imports Drupal configuration files
+## Usage: deploy
+## Example: ddev deploy
+
+make deploy
+drush en field_ui views_ui -y

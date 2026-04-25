@@ -1,0 +1,9 @@
+#!/bin/bash
+
+## Description: Exports Drupal configuration files
+## Usage: export
+## Example: ddev export
+
+drush pmu views_ui field_ui -y
+make config-export
+drush en field_ui views_ui -y
